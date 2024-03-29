@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct Page {
+    let symbolPage: String
+    let pageName: String
+}

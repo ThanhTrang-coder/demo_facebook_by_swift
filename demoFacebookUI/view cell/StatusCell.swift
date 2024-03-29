@@ -2,13 +2,18 @@
 //  StatusCell.swift
 //  demoFacebookUI
 //
-//  Created by Tung on 19/12/2023.
+//  Created by T.Trang on 19/12/2023.
 //
 
 import UIKit
 
 class StatusCell: UITableViewCell {
 
+    @IBOutlet weak var userAvatar: UIImageView!
+    
+    @IBOutlet weak var userStatus: UILabel!
+    
+    @IBOutlet weak var photosImageView: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
